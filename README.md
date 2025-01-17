@@ -10,7 +10,7 @@ The goal of this project was to create a form that uses the following technologi
     SQL
     A framework or library of choice (I chose a library: jQuery for its simplicity at the time)
     Implement a functional CRUD
-# Set up
+# Install
 
 To use this form, you will need phpMyAdmin. Install the latest version, and once that's done, you can import the database into phpMyAdmin.
 Afterward, place the downloaded files in the following Windows directory: C:\wamp64\www
