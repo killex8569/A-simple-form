@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="feuille.js" defer></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="jquery-ui-1.13.2.custom/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+    </head>
+    <body>
+        
+        <!-- Ajouter un bouton pour ouvrir le menu -->
+		<button class="button" id="button">☰</button>
+        <!-- Ajouter un menu avec des liens -->
+        <div class="menu" id="menu">
+        <div id="accordion">
+            <h3>MENU</h3>
+            <div>
+                <p>
+                    <a href="menu.html">Accueil</a>
+                </p>
+            </div>
+            <h3>FORMULAIRES</h3>
+            <div>
+                <p>
+                    <a href="selection.php">vos formulaires enregistrer</a>
+                    <a href="formulaire.php">Créer un formulaire</a>
+                </p>
+            </div>
+            <h3>TELECHARGER</h3>
+            <div>
+                <p>
+                    <a href="imprimer.php" target="_blank">télécharger</a>
+                </p>
+            </div>
+            
+        </div>
+            <!-- Ajouter un bouton pour fermer le menu -->
+            <button class="close" id="close">×</button>
+        </div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Formulaire</div>
+                <div class="nav">
+                    <a href="menu.html">Accueil</a>
+                    <a href="menu.html">À propos</a>
+                    <a href="menu.html">Contact</a>
+                </div>
+
+                <!-- Ajouter une barre de recherche -->
+                <div class="search">
+                    <input type="text" name="query" id="query" placeholder="Rechercher">
+                    <button type="submit" id="search">Rechercher</button>
+                </div>
+            </div>
+        <div class="container">
+            <h2>Bienvenue sur le menu</h2>
+            <p>Cette page web a été créée pour gérer des formulaires. Vous pourrez y retrouver de quoi créer, enregistrer, modifier et même supprimer vos formulaires.</p>
+            <br>
+            <br>
+            <h2>Ressources du site</h2>
+            <p>Ce site comporte normalement <strong>14 fichiers/dossiers</strong>, dont le formulaire avec ses différentes pages. Il inclut également du code 
+            JavaScript pour vous faciliter la vie, du PHP qui vous permettra de sauvegarder vos formulaires, ainsi qu'une base de données nécessaire au fonctionnement de la sauvegarde.
+            De plus, un <strong>framework</strong> vous permettra de naviguer plus facilement dans le menu déroulant. Si une fonction ne marche pas, <strong>ce n'est pas normal</strong>. 
+            Le site permet d'enregistrer presque toutes les données que vous avez entrées, sauf certaines comme le nom du formulaire, car cela pourrait entrer en conflit avec d'anciens formulaires enregistrés.</p>
+            <br>
+            <br>
+            <h2>Comment fonctionne-t-il ?</h2>
+            <p>Utiliser Mon Formulaire est simple. Il vous suffit de vous inscrire, de créer votre formulaire en ajoutant les champs dont vous avez besoin, puis de partager le lien de 
+            votre formulaire avec les personnes dont vous souhaitez recueillir les informations. Les réponses seront automatiquement collectées et organisées pour vous, vous permettant 
+            de les visualiser et de les analyser facilement.</p>
+            <br>
+            <br>
+            <h2>À propos de nous</h2>
+            <p>La création de ce formulaire a débuté le <strong>Lundi 9 octobre 2023</strong> et s'est achevée le 12 décembre 2023. Il a été conçu par un étudiant en BTS SIO.</p>
+            <br>
+            <br>
+            <h2>Nous contacter</h2>
+
+            <p>Pour plus d'information concernant le site, vous pouvez me joindre a l'adresse mail suivante : <strong>cetteAdresseExistePas@gmail.com</strong></p>
+            <p>Vous pouvez cliquez ici pour revenire sur le formulaire</p>
+        </div>
+    </body>
+</html>

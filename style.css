@@ -1,0 +1,299 @@
+input, textarea, button{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+input:focus, textarea:focus, button:focus {
+    border-color: #C3E2EC;
+    box-shadow: 0 0 5px #54E8FF;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #ccc;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.text {
+    font-size: 16px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form button:hover {
+    background-color: #555;
+}
+
+
+
+
+/* Ajouter du style pour la barre de recherche */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.search button:hover, button:hover {
+    background-color: #555;
+}
+
+    textarea {
+        width: 300px; /* Définir la largeur du textarea */
+        height: 100px; /* Définir la hauteur du textarea */
+    }
+    
+    
+        /* Ajouter du style pour le bouton */
+        .button {
+            position: fixed; /* Fixer la position du bouton */
+            top: 20px; /* Définir la position en haut */
+            left: 20px; /* Définir la position à gauche */
+            width: 50px; /* Définir la largeur du bouton */
+            height: 50px; /* Définir la hauteur du bouton */
+            border: none; /* Enlever la bordure du bouton */
+            border-radius: 50%; /* Arrondir le bouton */
+            background-color: #333; /* Définir la couleur de fond du bouton */
+            color: #fff; /* Définir la couleur du texte du bouton */
+            font-size: 24px; /* Définir la taille du texte du bouton */
+            cursor: pointer; /* Changer le curseur en pointeur */
+        }
+    
+        /* Ajouter du style pour le menu */
+        .menu {
+            position: fixed; /* Fixer la position du menu */
+            top: 0; /* Définir la position en haut */
+            left: -300px; /* Définir la position à gauche hors de l'écran */
+            width: 300px; /* Définir la largeur du menu */
+            height: 100%; /* Définir la hauteur du menu */
+            background-color: #fff; /* Définir la couleur de fond du menu */
+            border-right: 1px solid #ccc; /* Ajouter une bordure à droite du menu */
+            transition: left 0.5s; /* Ajouter une transition pour le déplacement du menu */
+        }
+    
+        /* Ajouter du style pour les liens du menu */
+        .menu a {
+            display: block; /* Afficher les liens en bloc */
+            text-decoration: none; /* Enlever le soulignement des liens */
+            color: #333; /* Définir la couleur des liens */
+            padding: 20px; /* Ajouter du padding aux liens */
+        }
+    
+        /* Ajouter du style pour les liens du menu au survol */
+        .menu a:hover {
+            background-color: #ccc; /* Changer la couleur de fond des liens */
+        }
+
+        #monForm {
+            margin-bottom: 10px;
+        }
+    
+        /* Ajouter du style pour le menu quand il est ouvert */
+        .menu.open {
+            left: 0; /* Définir la position à gauche à 0 */
+        }
+    
+        /* Ajouter du style pour le bouton de fermeture du menu */
+        .close {
+            position: absolute; /* Fixer la position du bouton */
+            top: 20px; /* Définir la position en haut */
+            right: 20px; /* Définir la position à droite */
+            width: 50px; /* Définir la largeur du bouton */
+            height: 50px; /* Définir la hauteur du bouton */
+            border: none; /* Enlever la bordure du bouton */
+            border-radius: 50%; /* Arrondir le bouton */
+            background-color: #333; /* Définir la couleur de fond du bouton */
+            color: #fff; /* Définir la couleur du texte du bouton */
+            font-size: 24px; /* Définir la taille du texte du bouton */
+            cursor: pointer; /* Changer le curseur en pointeur */
+        }
+        @media print {
+            button#printbtn {
+              display: none; /* Masquer le bouton lors de l'impression */
+            }
+          }
+
+
+/* Ajouter du style pour le tableau */
+.dynamic_table table {
+    width: 50%; /* Définir la largeur du tableau */
+    border-collapse: collapse; /* Fusionner les bordures du tableau */
+    margin-bottom: 20px; /* Ajouter une marge en bas du tableau */
+}
+
+/* Ajouter du style pour les cellules du tableau */
+.dynamic_table table td, .dynamic_table table th {
+    padding: 10px; /* Ajouter du padding aux cellules du tableau */
+    border: 2px solid #ccc; /* Ajouter une bordure aux cellules du tableau */
+    border-radius: 6px; /* Arrondir les bordures des cellules du tableau */
+    font-size: 16px; /* Définir la taille de la police des cellules du tableau */
+    outline: none; /* Enlever le contour des cellules du tableau */
+}
+
+/* Ajouter du style pour les en-têtes du tableau */
+.dynamic_table table th {
+    background-color: #333; /* Définir la couleur de fond des en-têtes du tableau */
+    color: #fff; /* Définir la couleur du texte des en-têtes du tableau */
+}
+
+/* Ajouter du style pour les lignes du tableau lors du survol */
+.dynamic_table table tr:hover {
+    border-color: #C3E2EC; /* Définir la couleur de la bordure des lignes du tableau lors du survol */
+    box-shadow: 0 0 5px #54E8FF; /* Ajouter une ombre aux lignes du tableau lors du survol */
+}
+
+/* Ajouter du style pour le bouton dans le tableau */
+.dynamic_table table button {
+    padding: 10px; /* Ajouter du padding au bouton */
+    border: 2px solid #ccc; /* Ajouter une bordure au bouton */
+    border-radius: 6px; /* Arrondir les bordures du bouton */
+    font-size: 16px; /* Définir la taille de la police du bouton */
+    outline: none; /* Enlever le contour du bouton */
+}
+
+/* Ajouter du style pour le bouton dans le tableau lors du survol */
+.dynamic_table table button:focus {
+    border-color: #C3E2EC; /* Définir la couleur de la bordure du bouton lors du survol */
+    box-shadow: 0 0 5px #54E8FF; /* Ajouter une ombre au bouton lors du survol */
+}
+/* Ajouter du style pour l'accordéon */
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.accordion-header:focus {
+    border-color: #C3E2EC;
+    box-shadow: 0 0 5px #54E8FF;
+}
+
+.accordion-content {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none; /* Cacher le contenu par défaut */
+}
+
+/* Ajouter du style pour le bouton d'accordéon */
+.accordion-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.accordion-button:hover {
+    background-color: #555;
+}
+
+a {
+    color: #3498db; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: color 0.3s ease; /* Animation lors du changement de couleur */
+}
+
+a:hover {
+    color: #2980b9; /* Couleur du lien au survol */
+}
+
+a:active {
+    color: #2c3e50; /* Couleur du lien lorsqu'il est cliqué */
+}
